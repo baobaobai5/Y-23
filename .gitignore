@@ -1,0 +1,14 @@
+.DS_Store
+.vercel/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+previous-version/
+design-context/
+verification/
+figma-node-1-262.png
+news-thumbnails.png
+trend-thumbnails.png
+assets/*.png

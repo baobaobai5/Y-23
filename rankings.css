@@ -1,0 +1,34 @@
+/* Figma 281:59461, 1920 × 2755. Shared artwork and header match the source file. */
+#more-viewport{width:100%;overflow:hidden}
+#more-canvas{position:relative;width:1920px;height:2725px;transform-origin:top left;overflow:hidden}
+#more-canvas .page-texture{left:-6px;top:0;width:1933px;height:5488px;object-fit:cover}
+#more-canvas .navigation .active:after{left:36px}
+.more-breadcrumb{position:absolute;left:30px;top:322px;height:22px;display:flex;gap:5px;align-items:center;font-size:16px;line-height:22px}
+.more-breadcrumb a:first-child{color:#e0f5ff99}
+.more-breadcrumb a:last-child{color:#fff}
+.more-periods{position:absolute;left:30px;top:364px;display:flex;gap:10px;height:40px}
+.more-periods a{position:relative;display:block;width:64px;height:40px;font-size:16px;line-height:22px}
+.more-periods span{position:absolute;inset:0;display:grid;place-items:center}
+.more-comics{position:absolute;left:29px;top:424px;width:1864px;display:grid;grid-template-columns:repeat(6,294px);gap:20px}
+#more-canvas .ranking .caption-bg{width:257.95px}
+#more-canvas .ranking .comic-title{left:47.45px;top:335px;width:205.515px;height:27.909px;font-size:18px;line-height:21px;font-weight:700}
+.more-pagination{position:absolute;left:549.5px;top:2102px;width:820px;height:60px;display:flex;align-items:center;justify-content:space-between}
+.more-page-numbers{display:flex;gap:20px;align-items:center}
+.more-pagination a,.more-pagination .page-ellipsis{display:grid;place-items:center;width:60px;height:60px;border-radius:10px;background:#0000001a;color:#0008;font-size:18px;line-height:20px}
+.more-pagination a[aria-current="page"]{background:#dfee19;color:#000;font-weight:600}
+.more-pagination .page-ellipsis{background:transparent}
+.more-pagination .page-next img{transform:scaleX(-1)}
+.more-pagination .page-prev[aria-disabled="true"],.more-pagination .page-next[aria-disabled="true"]{cursor:default}
+#more-canvas .site-footer{left:-1px;top:2516.98877px;width:1921px}
+#more-canvas .footer-texture{width:1921px}
+#more-canvas .footer-logo b{color:#fff}
+.more-board-types{position:absolute;left:30px;top:364px;height:40px;display:flex;gap:10px}
+.more-board-types a{display:grid;place-items:center;width:100px;height:40px;border:1px solid #312050;background:#ffffff36;color:#312050;font-size:16px;line-height:22px;white-space:nowrap;border-radius:3px}
+.more-board-types a[aria-current="page"]{background:#dfee19;font-weight:600;box-shadow:2px 2px 0 #312050}
+.more-periods{left:auto;right:30px}
+
+/* The board type uses the same illustrated filter plate as the time controls. */
+.more-board-types a{position:relative;display:block;border:0;border-radius:0;background:none;box-shadow:none;font-weight:400}
+.more-board-types a[aria-current="page"]{background:none;box-shadow:none;font-weight:400}
+.more-board-types a>img{width:100px;height:40px}
+.more-board-types a>span{position:absolute;inset:0;display:grid;place-items:center}

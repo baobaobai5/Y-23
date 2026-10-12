@@ -1,0 +1,6 @@
+.git/
+previous-version/
+design-context/
+verification/
+assets/*.png
+*.png
