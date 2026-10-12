@@ -89,3 +89,6 @@
 .sticky-navigation .site-header{transform-origin:top left;pointer-events:auto}
 .sticky-navigation[data-page="more"] .navigation .active:after{left:36px}
 #rankings{scroll-margin-top:160px}
+.display-only-control{cursor:default!important;pointer-events:none}
+.navigation .display-only-control:not(.active):hover{color:#f2f2f5a6;background:none}
+.display-only-control:active{filter:none}
